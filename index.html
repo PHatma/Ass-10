@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/all.min.css" />
+    <link rel="stylesheet" href="CSS/bootstrap.min.css" />
+    <link rel="stylesheet" href="CSS/signup.css" />
+  </head>
+  <body>
+    <div class="text-center m-5 ">
+      <img class="w-25 "src="assets/welcome.jpg" alt="">
+      <h1 class="h4">Login Please</h1>
+    </div>   
+    <div class="form w-50 m-auto">
+      <div class="input-group  mb-3">
+        <input type="email" class="form-control" id="email" placeholder="Enter Your Email" aria-describedby="emailHelp">
+      </div>
+      <div class=" input-group mb-3">
+        <input type="password" class="form-control" id="password" placeholder="Enter Your Password">
+      </div>
+      <div  id="msg" class=" text-center text-danger">
+        
+      </div>
+      <div class="text-center m-auto">
+        <button onclick="login()" type="submit" id="btn" class="btn btn-dark">Sign in</button>
+      </div>
+      <div class=" m-auto  text-center mt-3">
+        Don’t have an account?<a href="signup.html">Signup</a>
+      </div>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
